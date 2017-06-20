@@ -10,7 +10,7 @@
 
 @implementation NSString (MD5String)
 
-//First Commit
+
 +(NSString *)MD5Convert:(NSString*)inputString{
     
     const char *ptr = [inputString UTF8String];
@@ -23,7 +23,7 @@
         [output appendFormat:@"%02x",md5Buffer[i]];
     
     NSLog(@"%@",output);
-    
+    NSLog(@"%@",output);
     return output;
 }
 
