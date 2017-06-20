@@ -10,7 +10,7 @@
 
 @implementation NSString (MD5String)
 
-
+//First Commit
 +(NSString *)MD5Convert:(NSString*)inputString{
     
     const char *ptr = [inputString UTF8String];
